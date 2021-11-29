@@ -1,0 +1,39 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Калькулятор</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div id="calculator">
+			<input type="text" id="display" disabled>
+			<div class="button button_C" data-type='C'>C</div>
+			<div class="button" data-type='7'>7</div>
+			<div class="button" data-type='8'>8</div>
+			<div class="button" data-type='9'>9</div>
+			<div class="button" data-type='/'>&divide;</div>
+			<div class="button" data-type='4'>4</div>
+			<div class="button" data-type='5'>5</div>
+			<div class="button" data-type='6'>6</div>
+			<div class="button" data-type='*'>&times</div>
+			<div class="button" data-type='1'>1</div>
+			<div class="button" data-type='2'>2</div>
+			<div class="button" data-type='3'>3</div>
+			<div class="button" data-type='-'>-</div>
+			<div class="button" data-type='0'>0</div>
+			<div class="button" data-type='.'>.</div>
+			<div class="button" data-type='='>=</div>
+			<div class="button" data-type='+'>+</div>
+		</div>
+
+		<script src="js/app.js"></script>
+	</body>
+</html>
